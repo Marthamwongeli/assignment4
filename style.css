@@ -1,0 +1,77 @@
+.photo{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    margin:right;
+    z-index:-1;
+    width: 50%;
+    height: 900px;
+    
+}
+#page{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 25px;
+    width: 60%;
+}
+#container{
+    margin: 5% 50%;
+    position: absolute;
+    border:#12ace9;
+    border-color: black;
+    width: 60%;
+    top: 0px;
+}
+.input{
+    padding: 20px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: solid 1px;
+    width: 90%;
+}
+#contain{
+    padding: 10px;
+    border: solid 1px;
+    position:absolute;
+    margin: 5% 50%;
+    top: 0px;
+    width: 45%;
+}
+button{
+    text-decoration-color: aqua;
+    width: 95%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #12ace9;
+    padding: 20px;
+}
+#name{
+    display:flex;
+    width: 95%;
+}
+#facebook{
+    display:grid;
+    grid-template-columns: 10% 20%;
+    display: flex;
+    flex: content;
+    width: 55%;
+    border: 1px solid;
+}
+#google{
+    display: grid;
+    grid-template-columns:10% 20% ;
+    display: flex;
+    flex: content;
+    width: 55%;
+    border: 1px solid;
+}
+#icons{
+    display: grid;
+    grid-template-columns: 10% 20%;
+    justify-content: left;
+    display: flex;
+    gap:250%;
+    padding: 20px;
+    
+
+}
